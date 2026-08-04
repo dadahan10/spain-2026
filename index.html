@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<style>*{box-sizing:border-box}body{margin:0}img{max-width:100%}</style>
+</head>
+<body>
+<title>ESPAÑA 2026 · יומן דרך · 9–16 באוגוסט</title>
+
+<div class="sheet" dir="rtl" lang="he">
+
+  <header class="masthead">
+    <div class="mh-rule" aria-hidden="true"></div>
+    <p class="eyebrow">Hoja 1 · Madrid — Montaña de León — Pinares de Soria</p>
+    <h1>יומן דרך · ספרד 2026</h1>
+    <p class="mh-sub">הוואן ביד <b>9–15.8</b>. הפסטיבל <b>10–12.8</b> בהרי לאון. הליקוי <b>12.8, 20:28</b>. הדרך חזרה עוברת דרך שלושה אירועים ספרדיים אמיתיים — ונוחתת בברנבאו ב-16.8.</p>
+    <nav class="mh-nav">
+      <a href="#map">מפה</a><a href="#days">מסלול</a><a href="#events">אירועים</a><a href="#sleep">לינה</a><a href="#log">כספים ופתקים</a><a href="#gear">ציוד</a>
+    </nav>
+  </header>
+
+  <div class="alert">
+    <span class="a-tag">עדכון · 4 באוגוסט</span>
+    <p><b>הפסטיבל עבר, לא בוטל.</b> וינואסה סירבה לאשר את Iberia Eclipse על שפת Cuerda del Pozo (הצבעת מליאה 29.7, דוח סביבתי שלילי + צל אסון Motorbeach). המארגנים העבירו אותו ל<b>עיירה בהרי לאון, כשעה מהעיר לאון</b> — פורמט קטן יותר, שתי במות. <b>הכניסה 10.8, התוכנית 11–14.8, פינוי עד 16.8.</b> המיקום המדויק נשלח במייל למחזיקי כרטיסים. <b>לוואן צריך Vehicle Pass נפרד ומקומות מוגבלים — לוודא שיש לכם אחד.</b></p>
+  </div>
+
+  <!-- ============ MAP ============ -->
+  <section class="block" id="map">
+    <h2 class="b-title">המפה</h2>
+    <p class="b-sub">סכמטית, לא ניווט — המיקומים מדויקים יחסית אחד לשני, המרחקים לא. לחיצה על נקודה מסומנת קופצת ליום שלה.</p>
+
+    <div class="map-frame">
+      <svg viewBox="0 0 1160 964" role="img" aria-labelledby="mapTitle mapDesc" class="map">
+        <title id="mapTitle">מפת המסלול בצפון ספרד</title>
+        <desc id="mapDesc">מדריד בדרום, הרי לאון בצפון-מערב, יערות האורנים של סוריה במזרח, ורצועת הטוטאליות של הליקוי חוצה באלכסון.</desc>
+
+        <defs>
+          <marker id="arw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+            <path d="M0,1 L9,5 L0,9 z" class="m-arw"></path>
+          </marker>
+          <pattern id="hatch" width="9" height="9" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+            <line x1="0" y1="0" x2="0" y2="9" class="m-hatch"></line>
+          </pattern>
+        </defs>
+
+        <rect x="0" y="0" width="1160" height="964" class="m-bg"></rect>
+
+        <!-- graticule -->
+        <g class="m-grat" aria-hidden="true">
+          <line x1="232" y1="0" x2="232" y2="964"></line>
+          <line x1="464" y1="0" x2="464" y2="964"></line>
+          <line x1="696" y1="0" x2="696" y2="964"></line>
+          <line x1="928" y1="0" x2="928" y2="964"></line>
+          <line x1="0" y1="248" x2="1160" y2="248"></line>
+          <line x1="0" y1="559" x2="1160" y2="559"></line>
+          <line x1="0" y1="870" x2="1160" y2="870"></line>
+        </g>
+
+        <!-- totality band -->
+        <polygon points="0,-228 371,-15 719,172 1160,408 1160,748 719,512 371,326 0,112" class="m-band"></polygon>
+        <polyline points="0,-58 371,155 719,342 1160,578" class="m-bandline"></polyline>
+        <text x="150" y="128" class="m-bandlabel" transform="rotate(28.5 150 128)">FRANJA DE TOTALIDAD · 12.VIII.2026</text>
+
+        <!-- mountains -->
+        <g class="m-ridge" aria-hidden="true">
+          <polyline points="20,86 62,52 104,84 150,44 196,82 244,50 292,86 340,54 388,88 436,46 484,30 532,68 578,44 624,80"></polyline>
+          <polyline points="60,118 110,92 158,120 210,96 260,124 312,98 362,126 414,94 466,66 516,104 566,82 612,116"></polyline>
+          <polyline points="900,470 934,440 968,468 1002,432 1036,462 1070,436 1104,466"></polyline>
+          <polyline points="556,796 606,762 656,798 706,766 756,802 806,770 856,804 906,776"></polyline>
+        </g>
+
+        <!-- rivers -->
+        <polyline points="1049,477 1037,563 912,533 768,507 669,530 464,560 290,560 53,600" class="m-river"></polyline>
+        <text x="500" y="586" class="m-water">Río Duero</text>
+
+        <!-- lakes -->
+        <ellipse cx="993" cy="446" rx="26" ry="12" class="m-lake" transform="rotate(-18 993 446)"></ellipse>
+        <ellipse cx="470" cy="101" rx="24" ry="10" class="m-lake" transform="rotate(-8 470 101)"></ellipse>
+
+        <!-- ROUTE -->
+        <polyline points="765,897 669,731 528,513 332,218 406,131" class="m-route" marker-end="url(#arw)"></polyline>
+        <polyline points="406,131 573,401 669,530 768,507 912,533 981,432" class="m-route" marker-end="url(#arw)"></polyline>
+        <polyline points="981,432 1049,477 1037,563 1060,662 765,897" class="m-route m-route-back" marker-end="url(#arw)"></polyline>
+
+        <!-- reference towns -->
+        <g class="m-ref">
+          <circle cx="332" cy="218" r="5"></circle><text x="318" y="212">León</text>
+          <circle cx="766" cy="299" r="5"></circle><text x="752" y="293">Burgos</text>
+          <circle cx="573" cy="401" r="5"></circle><text x="559" y="395">Palencia</text>
+          <circle cx="528" cy="513" r="5"></circle><text x="514" y="507">Valladolid</text>
+          <circle cx="669" cy="731" r="5"></circle><text x="655" y="725">Segovia</text>
+          <circle cx="219" cy="262" r="5"></circle><text x="205" y="256">Astorga</text>
+          <circle cx="1049" cy="477" r="5"></circle><text x="1035" y="471">Soria</text>
+          <circle cx="290" cy="560" r="5"></circle><text x="276" y="554">Zamora</text>
+        </g>
+
+        <!-- sleep / nature spots -->
+        <g class="m-spot">
+          <path d="M990,455 l9,16 h-18 z"></path><text x="1004" y="472">Playa Pita</text>
+          <path d="M464,92 l9,16 h-18 z"></path><text x="478" y="109">Riaño</text>
+          <path d="M387,125 l9,16 h-18 z"></path><text x="401" y="142">Boñar</text>
+          <path d="M483,38 l9,16 h-18 z"></path><text x="497" y="55">Valdeón</text>
+          <path d="M343,306 l9,16 h-18 z"></path><text x="357" y="323">Coyanza</text>
+          <path d="M912,525 l9,16 h-18 z"></path><text x="905" y="566" text-anchor="end">Burgo de Osma</text>
+        </g>
+        <g class="m-nature">
+          <circle cx="965" cy="407" r="4"></circle>
+          <line x1="961" y1="405" x2="900" y2="382" class="m-lead"></line>
+          <text x="896" y="378" text-anchor="end">Laguna Negra</text>
+          <circle cx="916" cy="491" r="4"></circle>
+          <line x1="912" y1="489" x2="852" y2="470" class="m-lead"></line>
+          <text x="848" y="466" text-anchor="end">Cañón del Río Lobos</text>
+          <circle cx="53" cy="261" r="4"></circle><text x="67" y="256">Las Médulas</text>
+        </g>
+
+        <!-- festival zone -->
+        <g class="m-zone" data-go="d10" tabindex="0" role="button" aria-label="אזור הפסטיבל, 10 עד 12 באוגוסט">
+          <rect x="284" y="72" width="248" height="122" rx="14"></rect>
+          <text x="408" y="182" text-anchor="middle">zona festival · exacta por email</text>
+        </g>
+
+        <!-- DAY NODES -->
+        <g class="m-node" data-go="d9" tabindex="0" role="button" aria-label="מדריד, 9 באוגוסט">
+          <circle cx="765" cy="897" r="15"></circle>
+          <text x="765" y="903" text-anchor="middle" class="m-num">1</text>
+          <text x="765" y="937" text-anchor="middle" class="m-name">MADRID</text>
+          <text x="765" y="861" text-anchor="middle" class="m-date">9.8 · 15–16.8</text>
+        </g>
+        <g class="m-node m-hot" data-go="d10" tabindex="0" role="button" aria-label="הפסטיבל והליקוי, 10 עד 12 באוגוסט">
+          <circle cx="408" cy="131" r="15"></circle>
+          <text x="408" y="137" text-anchor="middle" class="m-num">2</text>
+          <text x="408" y="103" text-anchor="middle" class="m-date">10–12.8 · ECLIPSE</text>
+        </g>
+        <g class="m-node" data-go="d13" tabindex="0" role="button" aria-label="פניאפייל, 13 עד 14 באוגוסט">
+          <circle cx="669" cy="530" r="15"></circle>
+          <text x="669" y="536" text-anchor="middle" class="m-num">3</text>
+          <text x="669" y="570" text-anchor="middle" class="m-name">PEÑAFIEL</text>
+          <text x="669" y="494" text-anchor="middle" class="m-date">13–14.8</text>
+        </g>
+        <g class="m-node" data-go="d14" tabindex="0" role="button" aria-label="וינואסה, 14 באוגוסט">
+          <circle cx="981" cy="432" r="15"></circle>
+          <text x="981" y="438" text-anchor="middle" class="m-num">4</text>
+          <text x="1000" y="428" class="m-name">VINUESA</text>
+          <text x="1000" y="450" class="m-date">14–15.8</text>
+        </g>
+
+        <!-- sun position hint -->
+        <g class="m-sun" aria-hidden="true">
+          <circle cx="72" cy="880" r="17"></circle>
+          <circle cx="72" cy="880" r="17" class="m-sun-disc"></circle>
+          <text x="72" y="924" text-anchor="middle">השמש שוקעת מערבה — צריך אופק פתוח לכיוון הזה</text>
+        </g>
+
+        <rect x="1" y="1" width="1158" height="962" class="m-frame"></rect>
+      </svg>
+    </div>
+
+    <ul class="legend">
+      <li><span class="lg lg-route"></span>הדרך הלוך</li>
+      <li><span class="lg lg-back"></span>הדרך חזרה (15.8)</li>
+      <li><span class="lg lg-band"></span>רצועת הטוטאליות</li>
+      <li><span class="lg lg-tent"></span>לינה בוואן / חניון</li>
+      <li><span class="lg lg-nat"></span>טבע ועצירה</li>
+      <li><span class="lg lg-water"></span>אגם / מאגר</li>
+    </ul>
+  </section>
+
+  <!-- ============ DAYS ============ -->
+  <section class="block" id="days">
+    <h2 class="b-title">המסלול, יום-יום</h2>
+    <p class="b-sub">שלושה אירועים אחרי הפסטיבל, בלי לחזור אחורה אף פעם: <b>אנסיירו בפניאפייל</b>, <b>הרמת המאיו בוינואסה</b>, <b>לה פלומה במדריד</b>.</p>
+
+    <ol class="days">
+
+      <li class="day" id="d9">
+        <div class="d-head"><span class="d-date">ראשון 9.8</span><span class="d-tag">איסוף הוואן</span></div>
+        <div class="d-body">
+          <p><b>מדריד → צפונה.</b> לוקחים את ה-D55, קונים בסופר הגדול לפני שיוצאים, ומתחילים לנסוע לכיוון לאון.</p>
+          <p class="d-opt"><b>אופציה בדרך:</b> <i>Sonorama Ribera</i> באראנדה דה דוארו — היום האחרון של המהדורה ה-29. ההופעות ברחוב ב-<i>Plaza del Trigo</i> חינם, 11:00–18:00. עיקוף של בערך שעה וחצי מהקו הישיר, אבל זו העיר כולה בפסטיבל.</p>
+          <p class="d-sleep">לינה: אזור ואיאדוליד / פאלנסיה, או להתקדם עד לאון.</p>
+        </div>
+      </li>
+
+      <li class="day hot" id="d10">
+        <div class="d-head"><span class="d-date">שני 10.8 — רביעי 12.8</span><span class="d-tag hot">הפסטיבל + הליקוי</span></div>
+        <div class="d-body">
+          <p><b>הרי לאון, כשעה מהעיר לאון.</b> הכניסה נפתחת ב-10.8, התוכנית 11–14.8. שתי במות, פורמט קטן ממה שתוכנן במקור. תחנות מים חינם באתר, אסור זכוכית, לוואן יש אזור חנייה נפרד — <b>עם Vehicle Pass בלבד</b>.</p>
+          <p class="d-key"><b>12.8 · 20:28 — הטוטאליות.</b> כדקה ו-45 שניות. השמש נמוכה מאוד מעל האופק, ולכן חייבים <b>אופק מערבי פתוח</b> — לסמן את נקודת הצפייה כבר ב-11.8 באור יום.</p>
+          <p class="d-opt"><b>גיבוי אם השמיים באתר סגורים:</b> העיר לאון מריצה יום חינם של ESA + אוניברסיטת לאון ב-<i>Palacio de Exposiciones</i> — סדנאות 10:00–14:00, תצפית מודרכת 17:30–21:45, בלי הרשמה. שעה נסיעה.</p>
+          <p class="d-opt"><b>בונוס:</b> שיא הפרסאידים בדיוק בלילה 12–13.8. אחרי הליקוי, שמיים חשוכים וגשם מטאורים.</p>
+        </div>
+      </li>
+
+      <li class="day" id="d13">
+        <div class="d-head"><span class="d-date">חמישי 13.8</span><span class="d-tag">יורדים דרומה</span></div>
+        <div class="d-body">
+          <p><b>מהפסטיבל אל הדוארו.</b> יוצאים אחרי ארוחת בוקר, יורדים דרך פאלנסיה אל <i>Peñafiel</i> — עיירת יין ברפאי הדוארו, עם טירה על הרכס וכיכר ימי-ביניימית.</p>
+          <p class="d-opt"><b>עצירה בדרך:</b> אם הפסטיבל יוצא באזור ריאניו/בוניאר — <i>Embalse de Riaño</i>, מאגר בין פסגות, אחת התמונות היפות בספרד.</p>
+          <p class="d-sleep">לינה: פניאפייל / אראנדה דה דוארו.</p>
+        </div>
+      </li>
+
+      <li class="day" id="d14">
+        <div class="d-head"><span class="d-date">שישי 14.8</span><span class="d-tag">שוורים בבוקר, אורנים בערב</span></div>
+        <div class="d-body">
+          <p class="d-key"><b>09:30 — אנסיירו בפניאפייל.</b> השוורים רצים מהמכלאות לאורך <i>Paseo del Valdobar</i> אל <b>Plaza del Coso</b> — כיכר עפר מוקפת מרפסות עץ, מתחת לטירה. לפני זה, ב-08:30, להקת הדולסאינה <i>Villaolid</i> עוברת לאורך המסלול. אחרי האנסיירו — קאפיאס בכיכר.</p>
+          <p><b>ואז מזרחה אל יערות האורנים.</b> פניאפייל → אראנדה → <i>El Burgo de Osma</i> (עיירת קתדרלה יפהפייה, שווה עצירת צהריים) → וינואסה. אחר הצהריים: טבילה ב-<i>Cuerda del Pozo</i>.</p>
+          <p class="d-key"><b>בערב — Pingada del Mayo בוינואסה.</b> פתיחת חגי <i>Virgen del Pino y San Roque</i>: מרימים גזע אורן ענק בכיכר הכפר. פסטיבל מוכרז "עניין תיירותי אזורי", לא מופע לתיירים.</p>
+          <p class="d-sleep">לינה: חניון האוטוקרוואנים של וינואסה, או Playa Pita על שפת המאגר.</p>
+        </div>
+      </li>
+
+      <li class="day" id="d15">
+        <div class="d-head"><span class="d-date">שבת 15.8</span><span class="d-tag">מחזירים את הוואן</span></div>
+        <div class="d-body">
+          <p><b>בוקר בפינארס.</b> אם קמים מוקדם — <i>Laguna Negra</i>, אגם קרחוני בקצה מצוק, 20 דקות מוינואסה (בקיץ יש שאטל מהחניון התחתון). אם מעדיפים את הכפר — תהלוכת <b>Día de la Virgen</b> בוינואסה עם ה"פיניוראס" בלבוש מסורתי.</p>
+          <p><b>ואז מדריד</b> דרך סוריה ומדינאסלי (A-15 ל-A-2), כשלוש שעות. מחזירים את הוואן נקי.</p>
+          <p class="d-key"><b>בערב — La Virgen de la Paloma.</b> היום הגדול של חגי מדריד, ברחובות לה לטינה ולאבפייס: צ'וטיס, מנטונים, לימונדה בכוס פלסטיק, ענקים וראשנים, הכל חינם וברחוב. הדבר הכי מדרידי שיש, ובדיוק ביום שאתם חוזרים.</p>
+          <p class="d-opt"><b>ויתרתם על מדריד בערב?</b> ב-El Burgo de Osma נפתחת באותו יום פריית השוורים — רחונאדור ונוביאדה עם חוליו אפאריסיו. אבל זה 18:00 בערב, ואי אפשר גם וגם עם החזרת הוואן.</p>
+        </div>
+      </li>
+
+      <li class="day madrid" id="d16">
+        <div class="d-head"><span class="d-date">ראשון 16.8</span><span class="d-tag madrid">ברנבאו</span></div>
+        <div class="d-body">
+          <p><b>ריאל מדריד.</b> העוגן של כל הטיול. חגי לה פלומה עוד נמשכים ביום הזה — אפשר לסגור את הטיול באותה כיכר שבה התחלנו את הערב הקודם.</p>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- ============ EVENTS ============ -->
+  <section class="block" id="events">
+    <h2 class="b-title">מה קורה מסביב, ומתי</h2>
+    <p class="b-sub">כל מה שאיתרנו בטווח הנסיעה בין 9 ל-16.8. הכוכב = מה שנכנס למסלול למעלה.</p>
+    <div class="table-scroll">
+      <table class="ev-table">
+        <thead><tr><th>תאריך</th><th>האירוע</th><th>איפה</th><th>מה זה</th></tr></thead>
+        <tbody>
+          <tr class="in"><td class="dt">9.8</td><td class="nm">★ Sonorama Ribera</td><td>Aranda de Duero</td><td>יום אחרון. הופעות רחוב חינם 11:00–18:00 בכיכר Plaza del Trigo.</td></tr>
+          <tr><td class="dt">7–9.8</td><td class="nm">GP La Bañeza</td><td>La Bañeza, לאון</td><td>אחד ממסלולי הרחוב האחרונים באירופה, מהדורה 65. מרוצים ביום א' 9.8.</td></tr>
+          <tr class="in"><td class="dt">10–14.8</td><td class="nm">★ Iberia Eclipse</td><td>הרי לאון</td><td>כניסה 10.8, תוכנית 11–14.8. שתי במות. Vehicle Pass לוואן.</td></tr>
+          <tr class="in key"><td class="dt">12.8 · 20:28</td><td class="nm">★ ליקוי חמה מלא</td><td>כל רצועת הטוטאליות</td><td>כ-1:45 דקות. הראשון בספרד מזה 121 שנה.</td></tr>
+          <tr><td class="dt">12.8</td><td class="nm">ESA + אוניברסיטת לאון</td><td>Palacio de Exposiciones, לאון</td><td>חינם, בלי הרשמה. 10:00–14:00 סדנאות, 17:30–21:45 תצפית מודרכת.</td></tr>
+          <tr><td class="dt">12–13.8</td><td class="nm">שיא הפרסאידים</td><td>שמיים אפלים</td><td>אותו לילה בדיוק. סוריה מסווגת כשמיים הנקיים בספרד.</td></tr>
+          <tr class="in"><td class="dt">14–18.8</td><td class="nm">★ Peñafiel · Nuestra Señora y San Roque</td><td>Peñafiel, ואיאדוליד</td><td>אנסיירו 09:30 כל בוקר אל Plaza del Coso. Chúndara 17:00 (15–17.8). Toro de Fuego 23:50.</td></tr>
+          <tr class="in"><td class="dt">14–18.8</td><td class="nm">★ Vinuesa · Virgen del Pino</td><td>Vinuesa, סוריה</td><td>14: Pingada del Mayo · 15: תהלוכת הבתולה · 16: La Pinochada · 17: becerrada.</td></tr>
+          <tr><td class="dt">15–18.8</td><td class="nm">פריית שוורים</td><td>El Burgo de Osma</td><td>15.8 רחונס + נוביאדה (חוליו אפאריסיו). 17.8 מיגל אנחל פררה.</td></tr>
+          <tr><td class="dt">15.8</td><td class="nm">Asunción בכפרי לאון</td><td>סאהאגון וכפרים נוספים</td><td>תחרות פאייה, bollo preñao, ורבנה עד הבוקר.</td></tr>
+          <tr class="in"><td class="dt">4–16.8</td><td class="nm">★ San Cayetano · San Lorenzo · La Paloma</td><td>לה לטינה ולאבפייס, מדריד</td><td>10.8 סן לורנסו · <b>15.8 לה פלומה, היום הגדול</b> · נמשך ל-16.8. הכל חינם וברחוב.</td></tr>
+          <tr class="in"><td class="dt">16.8</td><td class="nm">★ ריאל מדריד</td><td>ברנבאו</td><td>הוואן 2.7 מ' לא נכנס לחניון תת-קרקעי — חניה בפאתי העיר ומטרו.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="foot-note">פלמנקו: אין. פלמנקו הוא אנדלוסי, ובקסטיליה-לאון באוגוסט אין פסטיבלי פלמנקו אמיתיים. מה שכן — בחגי מדריד מופיעה סוליאה מורנטה, ובצפון המקבילה האותנטית היא דולסאינה, טמבוריל וחוטה, ואת זה תשמעו בפניאפייל ובוינואסה.</p>
+  </section>
+
+  <!-- ============ SLEEP ============ -->
+  <section class="block" id="sleep">
+    <h2 class="b-title">איפה ישנים בוואן</h2>
+    <p class="b-sub">חניוני אוטוקרוואנים מוסדרים לאורך המסלול. לינה פראית מוגבלת בחלק מהאזורים — עדיף חניון מוסדר, ו-park4night לשאר.</p>
+    <div class="spots">
+      <article class="spot"><h3>Vinuesa</h3><p class="sp-loc">סוריה · על המסלול 14–15.8</p><p>החניון הגדול באזור הפינארס והבסיס הכי טוב ללגונה נגרה. בפרובינציית סוריה 17 חניונים ו-551 מקומות בסך הכל; וינואסה לבדה 187.</p></article>
+      <article class="spot"><h3>Playa Pita · Cuerda del Pozo</h3><p class="sp-loc">סוריה · חוף מאגר</p><p>אזור הנופש המרכזי של המאגר, עם חוף לטבילה. Camping Cobijo צמוד, בין פארק הטבע Picos de Urbión ללגונה נגרה.</p></article>
+      <article class="spot"><h3>El Burgo de Osma</h3><p class="sp-loc">סוריה · 12€ ליום</p><p>כולל וואן + נוסעים + החלפת מים. חשמל 3€ לשעה או 6€ ל-24 שעות. עיירת קתדרלה, עצירת צהריים מצוינת ב-14.8.</p></article>
+      <article class="spot"><h3>Riaño</h3><p class="sp-loc">הרי לאון · ליד הבריכות העירוניות</p><p>מקום לחנות וללון מול מאגר מוקף פסגות. אם הפסטיבל יוצא באזור הזה — זו נקודת היציאה ב-13.8.</p></article>
+      <article class="spot"><h3>Boñar · Área El Soto</h3><p class="sp-loc">הרי לאון · 45 מקומות</p><p>בתוך פארק El Soto, תעריפים לפי שירותים, אזור פנאי ומשחקים לצד החניון.</p></article>
+      <article class="spot"><h3>Posada de Valdeón</h3><p class="sp-loc">פיקוס דה אאורופה · 15€ ליום</p><p>36 מקומות, מים, שפכים וחשמל כלולים. בלב הפיקוס, 300 מ' מהכפר. סטייה צפונה אם רוצים יום הרים.</p></article>
+      <article class="spot"><h3>Área de Coyanza</h3><p class="sp-loc">Valencia de Don Juan · חינם</p><p>25 מקומות בתעריף חינם, דרומית ללאון. נוח כתחנת ביניים ביציאה מהפסטיבל.</p></article>
+      <article class="spot"><h3>Cañón del Río Lobos</h3><p class="sp-loc">Ucero, סוריה · עצירת טבע</p><p>קניון עם מנזר טמפלרים וחופי נשרים. אזור שמיים אפלים — עצירת לילה יפה אם נשאר זמן ב-15.8.</p></article>
+    </div>
+  </section>
+
+  <!-- ============ LIVE LOG ============ -->
+  <section class="block" id="log">
+    <h2 class="b-title">כספים ופתקים · היומן החי</h2>
+    <p class="b-sub">אתה כותב, ברק רואה. יושב בגוגל שיטס ולא בדפדפן — נפתח מהטלפון בכל מקום, ולא תלוי באף מחשב שנשאר דלוק.</p>
+    <a class="live" href="https://docs.google.com/spreadsheets/d/1t201w6l5rEz5Wig_jfgErKOeB2c6DhNRI-5eGWcM8IM/edit">
+      <span class="lv-tag">Google Sheets · פתיחה</span>
+      <span class="lv-name">ספרד 2026 · הוצאות ופתקים</span>
+      <span class="lv-desc">שורה אחת לכל דבר. <b>סוג = הוצאה</b> לכסף, <b>סוג = פתק</b> לתזכורת. מטבע ₪ או €, משותף כן/לא.</span>
+      <span class="lv-calc">המרה לאירו, סה"כ, כמה כל אחד שילם ומי חייב למי — מחושב לבד בעמודה הימנית, כולל שורות שתוסיף בדרך.</span>
+    </a>
+    <p class="foot-note">שלוש ההוצאות שכבר ידועות מוזנות: הטיסות, המלון במדריד והמקדמה על הוואן. נכון לעכשיו <b>ברק חייב לך 464.69€</b> (בשער 4.05 — אפשר לשנות אותו בתא למעלה בגיליון והכל מתעדכן).</p>
+  </section>
+
+  <!-- ============ GEAR ============ -->
+  <section class="block" id="gear">
+    <h2 class="b-title">ציוד</h2>
+    <p class="b-sub">מסומן = ארוז. הרשימה מותאמת ל-D55 ולתוספות שמשלמים עליהן ב-Yescapa — כל דבר שמביאים מהבית חוסך כסף. זו הרשימה היחידה שנשמרת בדפדפן ולא בענן, כי היא נגמרת ברגע שסוגרים את התיק.</p>
+    <form class="add-row" id="gearForm" autocomplete="off">
+      <input type="text" id="gearInput" placeholder="להוסיף פריט…" aria-label="פריט ציוד חדש">
+      <button type="submit" class="btn">הוסף</button>
+    </form>
+    <ul class="checklist" id="gearList"></ul>
+  </section>
+
+  <!-- ============ CRITICAL ============ -->
+  <section class="block">
+    <h2 class="b-title">לא לשכוח</h2>
+    <ul class="crit">
+      <li><b>משקפי ליקוי מאושרי ISO 12312-2</b> — לקנות לפני הטיסה, לא שם. מסירים רק בזמן הטוטאליות עצמה.</li>
+      <li><b>Vehicle Pass לפסטיבל</b> — אזור הוואנים נפרד מהקמפינג ומקומות מוגבלים. לוודא שיש, אחרת ישנים באוהל.</li>
+      <li><b>המיקום המדויק מגיע במייל</b> — לבדוק את תיבת הדואר של מחזיק הכרטיס לפני היציאה ב-10.8.</li>
+      <li><b>לא לנהוג בערב ה-12.8</b> — פקקים כבדים צפויים ברצועת הטוטאליות. להיות במקום מבעוד מועד.</li>
+      <li><b>אופק מערבי פתוח</b> — השמש נמוכה מאוד ברגע הטוטאליות. לסמן את הנקודה באור יום ב-11.8.</li>
+      <li><b>הוואן חוזר 15.8, ואסור לצאת מגבולות ספרד.</b> פיקדון €1,000 והגבלת ק"מ (€0.25 לק"מ עודף).</li>
+      <li><b>להביא מהבית:</b> מצעים (€15), מגבות (€10), שולחן וכיסאות (€15). ולהחזיר נקי — ניקיון €60.</li>
+      <li><b>אין זכוכית באתר הפסטיבל</b>, ויש תחנות מים חינם — בקבוק רב-פעמי לכל אחד.</li>
+    </ul>
+  </section>
+
+  <section class="block" id="share">
+    <div class="backup">
+      <div>
+        <h3>לתת לברק גישה</h3>
+        <p>שני דברים לשתף, שניהם פעם אחת: <b>את הדף הזה</b> — תפריט השיתוף של הדף למעלה. <b>ואת הגיליון</b> — כפתור Share בגוגל שיטס, הרשאת <b>Viewer</b> בלבד כדי שרק אתה תכתוב.</p>
+        <p>שניהם יושבים בענן ולא במחשב. גם אם המחשב במשרד כבוי או נמחק — הלינקים ממשיכים לעבוד, גם לך וגם לו.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <p><b>ודאות:</b> העברת Iberia Eclipse להרי לאון, התאריכים ומדיניות הוואן — מהאתר הרשמי של הפסטיבל (4.8.2026), המיקום המדויק טרם פורסם. ביטול וינואסה — עיתונות סורית מקומית, 29–30.7. תוכניות פניאפייל ווינואסה — אתרי העירייה והעיתונות המקומית; <b>לאמת את השעות בלוח המודעות בכפר ביום עצמו</b>, תוכניות כפריות זזות. שעת הטוטאליות — 20:28, מהאתר הרשמי של הפסטיבל, תואם לחישובי IGN לאזור.</p>
+    <p class="src">vinuesa.es · guiadesoria.es · sanroque.turismopenafiel.com · iberiaeclipse.com · esa.int · sorianoticias.com · tribunasoria.com · diario.madrid.es · areasac.es · areascamper.com</p>
+  </footer>
+</div>
+
+<style>
+  :root {
+    --paper:#E6E2D7; --panel:#F1EEE6; --panel-2:#DCD7C8;
+    --ink:#211E17; --ink-dim:#6A6355; --line:#CDC6B4; --line-2:#B4AB94;
+    --contour:#9E7746; --water:#3B7692; --forest:#5F8551;
+    --route:#B8402A; --sun:#C9931F; --ok:#2F7A55; --bad:#B03A28;
+    --shadow: 0 1px 0 rgba(33,30,23,.04), 0 10px 26px -18px rgba(33,30,23,.4);
+    --sans:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+    --serif:Georgia,"Times New Roman",serif;
+    --mono:ui-monospace,"SF Mono",Consolas,"Liberation Mono",monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper:#14171C; --panel:#1C2027; --panel-2:#252A32;
+      --ink:#E7E2D6; --ink-dim:#9A9384; --line:#2E343D; --line-2:#3E4650;
+      --contour:#8A6B44; --water:#5C9CB8; --forest:#7DA46B;
+      --route:#E2694C; --sun:#E8B44A; --ok:#57BC8A; --bad:#E87B66;
+      --shadow: 0 1px 0 rgba(0,0,0,.3), 0 14px 34px -20px rgba(0,0,0,.8);
+    }
+  }
+  :root[data-theme="light"] {
+    --paper:#E6E2D7; --panel:#F1EEE6; --panel-2:#DCD7C8;
+    --ink:#211E17; --ink-dim:#6A6355; --line:#CDC6B4; --line-2:#B4AB94;
+    --contour:#9E7746; --water:#3B7692; --forest:#5F8551;
+    --route:#B8402A; --sun:#C9931F; --ok:#2F7A55; --bad:#B03A28;
+    --shadow: 0 1px 0 rgba(33,30,23,.04), 0 10px 26px -18px rgba(33,30,23,.4);
+  }
+  :root[data-theme="dark"] {
+    --paper:#14171C; --panel:#1C2027; --panel-2:#252A32;
+    --ink:#E7E2D6; --ink-dim:#9A9384; --line:#2E343D; --line-2:#3E4650;
+    --contour:#8A6B44; --water:#5C9CB8; --forest:#7DA46B;
+    --route:#E2694C; --sun:#E8B44A; --ok:#57BC8A; --bad:#E87B66;
+    --shadow: 0 1px 0 rgba(0,0,0,.3), 0 14px 34px -20px rgba(0,0,0,.8);
+  }
+
+  * { box-sizing: border-box; }
+  body { background: var(--paper); }
+  .sheet {
+    max-width: 1040px; margin: 0 auto; padding: 0 20px 80px;
+    background: var(--paper); color: var(--ink);
+    font-family: var(--sans); font-size: 15px; line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,h2,h3 { margin: 0; text-wrap: balance; }
+  p { margin: 0; }
+  i { font-family: var(--serif); font-style: italic; }
+  :focus-visible { outline: 2px solid var(--route); outline-offset: 3px; }
+
+  /* masthead */
+  .masthead { padding: 46px 0 30px; }
+  .mh-rule { height: 5px; border-block: 1px solid var(--ink); margin-bottom: 20px; }
+  .eyebrow {
+    font-family: var(--mono); font-size: .68rem; letter-spacing: .18em;
+    text-transform: uppercase; color: var(--ink-dim); margin-bottom: 12px;
+  }
+  .masthead h1 { font-size: clamp(2.1rem, 6vw, 3.4rem); font-weight: 800; letter-spacing: -.02em; line-height: 1.05; }
+  .mh-sub { margin-top: 14px; max-width: 62ch; color: var(--ink-dim); font-size: 1.02rem; }
+  .mh-sub b { color: var(--ink); font-weight: 700; }
+  .mh-nav { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 22px; }
+  .mh-nav a {
+    font-family: var(--mono); font-size: .72rem; letter-spacing: .06em; text-decoration: none;
+    color: var(--ink-dim); border: 1px solid var(--line); border-radius: 99px; padding: 5px 13px;
+  }
+  .mh-nav a:hover { color: var(--ink); border-color: var(--line-2); background: var(--panel); }
+
+  /* alert */
+  .alert {
+    background: var(--panel); border: 1px solid var(--line);
+    border-inline-start: 4px solid var(--route); border-radius: 4px;
+    padding: 16px 20px; margin-bottom: 42px;
+  }
+  .a-tag {
+    display: inline-block; font-family: var(--mono); font-size: .64rem; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--route); margin-bottom: 6px;
+  }
+  .alert p { font-size: .93rem; color: var(--ink-dim); max-width: 88ch; }
+  .alert b { color: var(--ink); font-weight: 700; }
+
+  .block { margin-bottom: 52px; }
+  .b-title {
+    font-size: 1.05rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase;
+    padding-bottom: 8px; border-bottom: 1px solid var(--ink); margin-bottom: 12px;
+  }
+  .b-sub { color: var(--ink-dim); font-size: .92rem; margin-bottom: 20px; max-width: 80ch; }
+  .b-sub b { color: var(--ink); font-weight: 700; }
+
+  /* ===== MAP ===== */
+  .map-frame { border: 1px solid var(--line-2); background: var(--panel); padding: 6px; border-radius: 3px; box-shadow: var(--shadow); }
+  .map { display: block; width: 100%; height: auto; }
+  .m-bg { fill: var(--panel); }
+  .m-frame { fill: none; stroke: var(--line-2); stroke-width: 2; }
+  .m-grat line, .m-grat { stroke: var(--line); stroke-width: 1; stroke-dasharray: 2 10; }
+  .m-band { fill: var(--sun); opacity: .13; }
+  .m-bandline { fill: none; stroke: var(--sun); stroke-width: 2; stroke-dasharray: 14 9; opacity: .75; }
+  .m-bandlabel { fill: var(--sun); font-family: var(--mono); font-size: 17px; letter-spacing: .22em; opacity: .95; }
+  .m-ridge polyline { fill: none; stroke: var(--contour); stroke-width: 2.2; opacity: .5; stroke-linejoin: round; }
+  .m-hatch { stroke: var(--contour); stroke-width: 1; }
+  .m-river { fill: none; stroke: var(--water); stroke-width: 3; opacity: .8; stroke-linejoin: round; }
+  .m-lake { fill: var(--water); opacity: .55; }
+  .m-water { fill: var(--water); font-family: var(--serif); font-style: italic; font-size: 21px; }
+  .m-route { fill: none; stroke: var(--route); stroke-width: 4.5; stroke-linejoin: round; stroke-linecap: round; }
+  .m-route-back { stroke-dasharray: 13 9; }
+  .m-arw { fill: var(--route); }
+  .m-ref circle { fill: var(--ink-dim); }
+  .m-ref text { fill: var(--ink-dim); font-family: var(--serif); font-size: 20px; text-anchor: end; }
+  .m-spot path { fill: var(--forest); }
+  .m-spot text { fill: var(--forest); font-family: var(--serif); font-size: 19px; }
+  .m-nature circle { fill: none; stroke: var(--water); stroke-width: 2.5; }
+  .m-nature text { fill: var(--water); font-family: var(--serif); font-style: italic; font-size: 19px; }
+  .m-lead { stroke: var(--water); stroke-width: 1.4; }
+  .m-zone rect { fill: none; stroke: var(--route); stroke-width: 2; stroke-dasharray: 9 7; opacity: .65; }
+  .m-zone text { fill: var(--route); font-family: var(--mono); font-size: 16px; letter-spacing: .06em; opacity: .8; }
+  .m-node circle { fill: var(--paper); stroke: var(--route); stroke-width: 4; }
+  .m-node.m-hot circle { fill: var(--route); }
+  .m-node .m-num { fill: var(--route); font-family: var(--mono); font-size: 19px; font-weight: 700; }
+  .m-node.m-hot .m-num { fill: var(--paper); }
+  .m-node .m-name { fill: var(--ink); font-family: var(--sans); font-size: 20px; font-weight: 800; letter-spacing: .08em; }
+  .m-node .m-date { fill: var(--ink-dim); font-family: var(--mono); font-size: 17px; }
+  .m-node, .m-zone { cursor: pointer; }
+  .m-node:hover circle, .m-node:focus circle, .m-zone:hover rect, .m-zone:focus rect { stroke-width: 6; opacity: 1; }
+  .m-sun circle { fill: none; stroke: var(--sun); stroke-width: 2; }
+  .m-sun .m-sun-disc { fill: var(--ink); stroke: none; transform-origin: 72px 880px; transform: scale(.62); }
+  .m-sun text { fill: var(--ink-dim); font-family: var(--sans); font-size: 19px; direction: rtl; }
+
+  .legend { list-style: none; display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 14px 0 0; padding: 0; font-size: .82rem; color: var(--ink-dim); }
+  .legend li { display: flex; align-items: center; gap: 8px; }
+  .lg { width: 22px; height: 3px; background: var(--route); flex: none; }
+  .lg-back { background: repeating-linear-gradient(90deg, var(--route) 0 7px, transparent 7px 12px); }
+  .lg-band { height: 11px; background: color-mix(in srgb, var(--sun) 30%, transparent); border-block: 1px dashed var(--sun); }
+  .lg-tent { width: 0; height: 0; background: none; border-inline: 6px solid transparent; border-bottom: 11px solid var(--forest); }
+  .lg-nat { width: 11px; height: 11px; border-radius: 50%; background: none; border: 2px solid var(--water); }
+  .lg-water { width: 18px; height: 9px; border-radius: 50%; background: color-mix(in srgb, var(--water) 55%, transparent); }
+
+  /* ===== DAYS ===== */
+  .days { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+  .day { background: var(--panel); border: 1px solid var(--line); padding: 18px 22px; }
+  .day.hot { border-inline-start: 4px solid var(--route); }
+  .day.madrid { border-inline-start: 4px solid var(--water); }
+  .day.flash { animation: flash 1.6s ease-out; }
+  @keyframes flash { 0%,30% { background: color-mix(in srgb, var(--sun) 24%, var(--panel)); } 100% { background: var(--panel); } }
+  @media (prefers-reduced-motion: reduce) { .day.flash { animation: none; outline: 2px solid var(--sun); } }
+  .d-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px dotted var(--line-2); }
+  .d-date { font-family: var(--mono); font-size: .88rem; font-weight: 700; letter-spacing: .04em; }
+  .d-tag { font-family: var(--mono); font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-dim); margin-inline-start: auto; }
+  .d-tag.hot { color: var(--route); }
+  .d-tag.madrid { color: var(--water); }
+  .d-body { display: grid; gap: 9px; font-size: .94rem; color: var(--ink-dim); }
+  .d-body b { color: var(--ink); font-weight: 700; }
+  .d-key { border-inline-start: 3px solid var(--sun); padding-inline-start: 12px; }
+  .d-opt { font-size: .89rem; opacity: .92; }
+  .d-sleep { font-family: var(--mono); font-size: .78rem; color: var(--forest); letter-spacing: .03em; }
+
+  /* ===== TABLES ===== */
+  .table-scroll { overflow-x: auto; border: 1px solid var(--line); background: var(--panel); }
+  .ev-table { width: 100%; border-collapse: collapse; font-size: .89rem; min-width: 640px; }
+  .ev-table th {
+    text-align: start; font-family: var(--mono); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--ink-dim); padding: 11px 14px; border-bottom: 1px solid var(--line-2); white-space: nowrap; font-weight: 600;
+  }
+  .ev-table td { padding: 11px 14px; border-bottom: 1px solid var(--line); color: var(--ink-dim); vertical-align: top; }
+  .ev-table tr:last-child td { border-bottom: 0; }
+  .ev-table .dt { font-family: var(--mono); font-size: .82rem; white-space: nowrap; color: var(--ink); }
+  .ev-table .nm { color: var(--ink); font-weight: 700; }
+  .ev-table tr.in .nm { color: var(--route); }
+  .ev-table tr.key td { background: color-mix(in srgb, var(--sun) 14%, transparent); }
+  .ev-table td b { color: var(--ink); }
+  .foot-note { margin-top: 12px; font-size: .84rem; color: var(--ink-dim); max-width: 86ch; }
+
+  /* ===== SPOTS ===== */
+  .spots { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; }
+  .spot { background: var(--panel); border: 1px solid var(--line); padding: 16px 18px; }
+  .spot h3 { font-family: var(--serif); font-size: 1.05rem; font-weight: 700; }
+  .sp-loc { font-family: var(--mono); font-size: .7rem; letter-spacing: .06em; color: var(--forest); margin: 3px 0 8px; }
+  .spot p:last-child { font-size: .87rem; color: var(--ink-dim); }
+
+  /* ===== LIVE LOG LINK ===== */
+  .live {
+    display: grid; gap: 6px; text-decoration: none; color: inherit;
+    background: var(--panel); border: 1px solid var(--line);
+    border-inline-start: 4px solid var(--forest); padding: 20px 24px;
+  }
+  .live:hover { border-color: var(--line-2); border-inline-start-color: var(--route); background: var(--panel-2); }
+  .lv-tag { font-family: var(--mono); font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; color: var(--forest); }
+  .live:hover .lv-tag { color: var(--route); }
+  .lv-name { font-family: var(--serif); font-size: 1.35rem; font-weight: 700; }
+  .lv-desc, .lv-calc { font-size: .91rem; color: var(--ink-dim); max-width: 74ch; }
+  .lv-desc b { color: var(--ink); }
+  .lv-calc { font-size: .86rem; }
+
+  /* ===== FORMS ===== */
+  input, select, textarea {
+    font-family: var(--sans); font-size: .92rem; color: var(--ink); background: var(--paper);
+    border: 1px solid var(--line-2); border-radius: 2px; padding: 8px 10px; width: 100%; min-width: 0;
+  }
+  .btn {
+    font-family: var(--mono); font-size: .78rem; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--paper); background: var(--ink); border: 1px solid var(--ink); border-radius: 2px;
+    padding: 10px 18px; cursor: pointer; white-space: nowrap;
+  }
+  .btn:hover { background: var(--route); border-color: var(--route); }
+  .btn.ghost { color: var(--ink); background: transparent; }
+  .btn.ghost:hover { color: var(--paper); }
+  .del { font: inherit; font-size: 1rem; line-height: 1; color: var(--ink-dim); background: none; border: 0; cursor: pointer; padding: 2px 7px; }
+  .del:hover { color: var(--bad); }
+
+  /* gear */
+  .add-row { display: flex; gap: 8px; align-items: flex-start; margin-bottom: 12px; }
+  .checklist { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+  .checklist li { display: flex; align-items: center; gap: 10px; background: var(--panel); border: 1px solid var(--line); padding: 10px 14px; font-size: .9rem; }
+  .checklist input { width: auto; flex: none; accent-color: var(--forest); }
+  .checklist label { flex: 1; cursor: pointer; }
+  .checklist li.done label { color: var(--ink-dim); text-decoration: line-through; }
+
+  .backup { display: grid; gap: 10px; background: var(--panel); border: 1px solid var(--line); padding: 18px 22px; }
+  .backup h3 { font-size: .95rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+  .backup p { font-size: .88rem; color: var(--ink-dim); max-width: 74ch; }
+  .backup b { color: var(--ink); }
+
+  .crit { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+  .crit li { background: var(--panel); border: 1px solid var(--line); padding: 11px 16px 11px 38px; font-size: .91rem; color: var(--ink-dim); position: relative; }
+  .crit li b { color: var(--ink); font-weight: 700; }
+  .crit li::before { content: ""; position: absolute; inset-inline-start: 16px; top: 19px; width: 7px; height: 7px; background: var(--route); }
+
+  .foot { border-top: 1px solid var(--ink); padding-top: 16px; font-size: .82rem; color: var(--ink-dim); display: grid; gap: 8px; }
+  .foot b { color: var(--ink); }
+  .foot .src { font-family: var(--mono); font-size: .7rem; opacity: .8; }
+
+  @media (max-width: 900px) {
+    .spots, .checklist { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 620px) {
+    .sheet { padding: 0 14px 60px; }
+    .spots, .checklist { grid-template-columns: 1fr; }
+  }
+</style>
+
+<script>
+(function () {
+  "use strict";
+  // הכספים והפתקים עברו לגוגל שיטס — כאן נשארה רק רשימת הציוד, שהיא מקומית בכוונה.
+  var TRIP_KEY = "spain2026-trip-v1";
+  var $ = function (id) { return document.getElementById(id); };
+
+  var SEED_GEAR = [
+    "משקפי ליקוי ISO 12312-2", "Vehicle Pass לפסטיבל (וואן)", "מצעים מהבית", "מגבות מהבית",
+    "שולחן וכיסאות מתקפלים", "בקבוק מים רב-פעמי לכל אחד", "מאריך חשמל + מתאם",
+    "פנס ראש", "ערכת עזרה ראשונה", "מטען סולארי / פאוור בנק", "אטמי אוזניים",
+    "בגד ים ומגבת לים", "שכבה חמה ללילות בהרים", "מזומן במזומן (€)", "אפליקציית park4night"
+  ];
+
+  var trip = { gear: SEED_GEAR.map(function (t, i) { return { id: "g" + i, t: t, done: false }; }) };
+  var storeOk = true;
+
+  function save() {
+    if (!storeOk) return;
+    try { localStorage.setItem(TRIP_KEY, JSON.stringify(trip)); }
+    catch (e) { storeOk = false; }
+  }
+  try {
+    var raw = localStorage.getItem(TRIP_KEY);
+    if (raw) { var lt = JSON.parse(raw); if (lt && lt.gear) trip.gear = lt.gear; }
+  } catch (e) { storeOk = false; }
+
+  function mkDel(fn, label) {
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "del"; b.textContent = "✕";
+    b.title = label; b.setAttribute("aria-label", label);
+    b.onclick = fn;
+    return b;
+  }
+
+  /* ---------- gear ---------- */
+  function renderGear() {
+    var ul = $("gearList"); ul.textContent = "";
+    trip.gear.forEach(function (g) {
+      var li = document.createElement("li");
+      if (g.done) li.className = "done";
+      var cb = document.createElement("input");
+      cb.type = "checkbox"; cb.checked = !!g.done; cb.id = "cb_" + g.id;
+      cb.onchange = function () { g.done = cb.checked; save(); renderGear(); };
+      var lb = document.createElement("label");
+      lb.htmlFor = cb.id; lb.textContent = g.t;
+      li.appendChild(cb); li.appendChild(lb);
+      li.appendChild(mkDel(function () {
+        trip.gear = trip.gear.filter(function (x) { return x.id !== g.id; });
+        save(); renderGear();
+      }, "מחק פריט"));
+      ul.appendChild(li);
+    });
+  }
+  $("gearForm").onsubmit = function (e) {
+    e.preventDefault();
+    var t = $("gearInput").value.trim();
+    if (!t) return;
+    trip.gear.push({ id: "g" + Date.now(), t: t, done: false });
+    $("gearInput").value = ""; save(); renderGear();
+  };
+
+  /* ---------- map → day ---------- */
+  function go(el) {
+    var t = document.getElementById(el.getAttribute("data-go"));
+    if (!t) return;
+    t.scrollIntoView({ behavior: "smooth", block: "center" });
+    t.classList.remove("flash");
+    void t.offsetWidth;
+    t.classList.add("flash");
+  }
+  Array.prototype.forEach.call(document.querySelectorAll("[data-go]"), function (el) {
+    el.addEventListener("click", function () { go(el); });
+    el.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(el); }
+    });
+  });
+
+  renderGear();
+})();
+</script>
+
+</body>
+</html>
